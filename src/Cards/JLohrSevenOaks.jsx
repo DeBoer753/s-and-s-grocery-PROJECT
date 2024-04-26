@@ -75,7 +75,7 @@ const JLohrSevenOaks = () => {
                     <div className={styles.flipCardBack}>
                         <div>
                             <h1>Welcome to</h1>
-                            <h2>SEARCHLIGHT MARKET</h2>
+                            <h2>S and S Grocery</h2>
                             <h3>{description1}</h3>
                             <h3>{description2}</h3>
                             <img src={process.env.PUBLIC_URL + '/imgs/message-icon.png'} alt="" />
