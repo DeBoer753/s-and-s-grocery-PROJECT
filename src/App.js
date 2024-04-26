@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+// REACT
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// ROUTES
+import Home from '../src/Routes/Home'
+
+// CARDS
+import JLohrSevenOaks from './Cards/JLohrSevenOaks'
+
+// CSS
 import './App.css';
 
-function App() {
+// APP
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+      <BrowserRouter>
+        <Routes>
+          {/* WINE */}
+          <Route index element={<Home />} />
+          <Route path='/' element={<Home />}/>
+          <Route path='/jlohr-seven-oaks-cabernet' element={<JLohrSevenOaks />}/>
+        
+          {/* BEER */}
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;

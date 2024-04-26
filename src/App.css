@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
-}
+.app-container{
+  overflow: hidden;
+  height: 90vh; 
+  margin: 0;
+  padding: 0;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* Default Wallpaper: */
+  background-image: url('/public/imgs/wallpapers/sf_wallpaper70percent.png');
+  background-size: cover; 
+  background-position-x: -215px; 
+  background-position-y: -130px;
+  background-size: 800px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* Holiday/Events Wallpaper: */
+  /* 
+  background-image: url('');
+  background-size: cover; 
+  background-position-x:  
+  background-position-y: 
+  background-size: 
+  */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (orientation: landscape) {
+  .app-container {
+      height: 80vh; 
+      background-color: rgb(255, 255, 255);
+      background-image: none;
   }
 }
