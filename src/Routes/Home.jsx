@@ -11,7 +11,7 @@ import styles from './Home.module.css';
 const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <h1>Searchlight Market</h1>
+      <h1>S and S Grocery</h1>
         {/* WINE */}
         <Link to='/jlohr-seven-oaks-cabernet'>J. Lohr Seven Oaks Cabernet</Link>
 
