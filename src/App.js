@@ -7,6 +7,7 @@ import Home from '../src/Routes/Home'
 
 // CARDS
 import JLohrSevenOaks from './Cards/JLohrSevenOaks'
+import OldSoulCab from './Cards/OldSoulCab';
 
 // CSS
 import './App.css';
@@ -21,6 +22,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path='/' element={<Home />}/>
           <Route path='/jlohr-seven-oaks-cabernet' element={<JLohrSevenOaks />}/>
+          <Route path='/oldsoul-cab' element={<OldSoulCab />}/>
         
           {/* BEER */}
 
