@@ -14,7 +14,15 @@ const Home = () => {
       <h1>S and S Grocery</h1>
         {/* WINE */}
         <Link to='/jlohr-seven-oaks-cabernet'>J. Lohr Seven Oaks Cabernet</Link>
+        <Link to='/jlohr-los-osos'>J. Lohr Los Osos Merlot</Link>
         <Link to='/oldsoul-cab'>Old Soul Cab</Link>
+        <Link to='/oldsoul-zin'>Old Soul Zin</Link>
+        <Link to='/laplaya-cab'>La Playa Cab</Link>
+        <Link to='/laplaya-merlot'>La Playa Merlot</Link>
+        <Link to='/eyzaguirre-syrah'>Eyzaguirre Syrah</Link>
+        <Link to='/eyzaguirre-merlot'>Eyzaguirre Merlot</Link>
+        <Link to='/poppy-cab'>Poppy Cab</Link>
+        <Link to='/poppy-pinot'>Poppy Pinot</Link>
 
         {/* BEER */}
         

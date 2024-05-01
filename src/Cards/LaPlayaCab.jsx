@@ -8,10 +8,10 @@ import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/OldSoulCab.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/LaPlayaCab.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
 // J LOHR SEVEN OAKS
-const OldSoulCab = () => {
+const LaPlayaCab = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,28 +40,28 @@ const OldSoulCab = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/oldsoul_cab.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_cab.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
-                                <h3>Old Soul Cabernet</h3>
+                                <h3>La Playa Estate Series Cabernet</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>Garnet in color, has intense flavors of black currant, leather, and boysenberry. Subtle notes of allspice and roasted marshmallow dance on the palate. A medium body with savory tannins and juicy dark fruits make for a lingering finish.</p>
+                                <p className={styles.skuDescription}>A glass of La Playa Cabernet is an opportunity to savor not only the rich, smooth flavors of this Chilean wine but also to appreciate its commitment to sustainability. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Steak<br />Creamy pasta<br />Aged cheddar</h5>
+                                        <h5 className={styles.pairing}>Lamb<br />Steak<br />Grilled zucchini</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
                                         <hr />
-                                        <h5 className={styles.origin}>Lodi, CA</h5>
+                                        <h5 className={styles.origin}>Colchagua Valley, Chile</h5>
                                     </div>
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Bold<br />Subtle spice<br />Tannic</h5>
+                                        <h5 className={styles.taste}>Full bodied<br />Oaky / Vanilla<br />Smooth</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const OldSoulCab = () => {
   );
 };
 
-export default OldSoulCab;
+export default LaPlayaCab;

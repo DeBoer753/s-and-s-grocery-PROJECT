@@ -8,10 +8,10 @@ import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/OldSoulCab.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/EyzaguirreMerlot.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
 // J LOHR SEVEN OAKS
-const OldSoulCab = () => {
+const EyzaguirreMerlot = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,28 +40,28 @@ const OldSoulCab = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/oldsoul_cab.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/eyzaguirre_merlot.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
-                                <h3>Old Soul Cabernet</h3>
+                                <h3>Vino de Eyzaguirre Merlot</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>Garnet in color, has intense flavors of black currant, leather, and boysenberry. Subtle notes of allspice and roasted marshmallow dance on the palate. A medium body with savory tannins and juicy dark fruits make for a lingering finish.</p>
+                                <p className={styles.skuDescription}>Vino de Eyzaguirre wines have always been farmed sustainably. Sustainable grapes yield the cleanest and more pure varietals. The vines used are 26 years old and are managed in low density trellis with drip irrigation. Please enjoy.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
-                                        <hr />
-                                        <h5 className={styles.pairing}>Steak<br />Creamy pasta<br />Aged cheddar</h5>
+                                        <hr /> 
+                                        <h5 className={styles.pairing}>Turkey dishes<br />Havarti cheese<br />Dark chocolate</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
                                         <hr />
-                                        <h5 className={styles.origin}>Lodi, CA</h5>
+                                        <h5 className={styles.origin}>Colchagua Valley, Chile</h5>
                                     </div>
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Bold<br />Subtle spice<br />Tannic</h5>
+                                        <h5 className={styles.taste}>Soft tannins<br />Fruit flavors<br />Smooth / Bold</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const OldSoulCab = () => {
   );
 };
 
-export default OldSoulCab;
+export default EyzaguirreMerlot;

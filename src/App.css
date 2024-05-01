@@ -1,11 +1,11 @@
 .app-container{
   overflow: hidden;
-  height: 90vh; 
+  height: 100dvh; 
   margin: 0;
   padding: 0;
 
   /* Default Wallpaper: */
-  background-image: url('/public/imgs/wallpapers/coittower_bg1.jpg');
+  background-image: url('/public/imgs/wallpapers/coittower_bg1.png');
   background-size: cover; 
   background-position-x: -95px; 
   background-position-y: -100px;
