@@ -8,10 +8,10 @@ import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/JLohrSevenOaks.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/JLohrSyrah.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
 // J LOHR SEVEN OAKS
-const JLohrSevenOaks = () => {
+const JLohrSyrah = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,18 +40,18 @@ const JLohrSevenOaks = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/jlohr_seven_oaks.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/jlohr_syrah.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
-                                <h3>J. Lohr Seven Oaks Cabernet</h3>
+                                <h3>J. Lohr South Ridge Syrah</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>J. Lohr Seven Oaks is without a doubt, a fan favorite. With its rich aromas of black cherry and dark caramel, this full-bodied red wine elevates any moment. Enjoy its velvety profile during meals or special occasions.</p>
+                                <p className={styles.skuDescription}>A popular one amongst the estate series. Enjoy a glass of J. Lohr South Ridge Syrah as the sun dips below the horizon, casting a golden glow over the day. Let its bold dark fruit flavors and smooth finish weave a tapestry of relaxation.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Steak<br />Beef stew<br />Grilled portobellos</h5>
+                                        <h5 className={styles.pairing}>Pork<br />Herbed potatoes<br />Aged cheddar</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
@@ -61,7 +61,7 @@ const JLohrSevenOaks = () => {
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Bold<br />Dry<br />Tannic</h5>
+                                        <h5 className={styles.taste}>Dry<br />Bold<br />Smooth / Tannic</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const JLohrSevenOaks = () => {
   );
 };
 
-export default JLohrSevenOaks;
+export default JLohrSyrah;

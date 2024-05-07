@@ -8,8 +8,10 @@ import Home from '../src/Routes/Home'
 // CARDS
 import JLohrSevenOaks from './Cards/JLohrSevenOaks'
 import JLohrLosOsos from './Cards/JLohrLosOsos'
+import JLohrSyrah from './Cards/JLohrSyrah';
 import OldSoulCab from './Cards/OldSoulCab';
 import OldSoulZin from './Cards/OldSoulZin';
+import OldSoulPetiteSyrah from './Cards/OldSoulPetiteSyrah';
 import LaPlayaCab from './Cards/LaPlayaCab';
 import LaPlayaMerlot from './Cards/LaPlayaMerlot';
 import EyzaguirreSyrah from './Cards/EyzaguirreSyrah';
@@ -31,8 +33,10 @@ const App = () => {
           <Route path='/' element={<Home />}/>
           <Route path='/jlohr-seven-oaks-cabernet' element={<JLohrSevenOaks />}/>
           <Route path='/jlohr-los-osos' element={<JLohrLosOsos />}/>
+          <Route path='/jlohr-syrah' element={<JLohrSyrah />}/>
           <Route path='/oldsoul-cab' element={<OldSoulCab />}/>
           <Route path='/oldsoul-zin' element={<OldSoulZin />}/>
+          <Route path='/oldsoul-petite-syrah' element={<OldSoulPetiteSyrah />}/>
           <Route path='/laplaya-cab' element={<LaPlayaCab />}/>
           <Route path='/laplaya-merlot' element={<LaPlayaMerlot />}/>
           <Route path='/eyzaguirre-syrah' element={<EyzaguirreSyrah />}/>

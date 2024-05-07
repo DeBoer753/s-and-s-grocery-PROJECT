@@ -15,8 +15,10 @@ const Home = () => {
         {/* WINE */}
         <Link to='/jlohr-seven-oaks-cabernet'>J. Lohr Seven Oaks Cabernet</Link>
         <Link to='/jlohr-los-osos'>J. Lohr Los Osos Merlot</Link>
+        <Link to='/jlohr-syrah'>J. Lohr South Ridge Syrah</Link>
         <Link to='/oldsoul-cab'>Old Soul Cab</Link>
         <Link to='/oldsoul-zin'>Old Soul Zin</Link>
+        <Link to='/oldsoul-petite-syrah'>Old Soul Petite Syrah</Link>
         <Link to='/laplaya-cab'>La Playa Cab</Link>
         <Link to='/laplaya-merlot'>La Playa Merlot</Link>
         <Link to='/eyzaguirre-syrah'>Eyzaguirre Syrah</Link>
