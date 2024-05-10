@@ -8,10 +8,10 @@ import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/LaPlayaCab.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/LaPlayaSB.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
 // J LOHR SEVEN OAKS
-const LaPlayaCab = () => {
+const LaPlayaSB = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,18 +40,18 @@ const LaPlayaCab = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_cab.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_sb.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
                                 <h3>La Playa Estate Series Cabernet</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>A bang for your buck, and your health! La Playa is an opportunity to savor the flavors of Chilean wine and appreciate the wineries commitment to sustainability. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
+                                <p className={styles.skuDescription}>A bang for your buck, and your health! La Playa Sauvignon Blanc is a TOP seller and for good reasons. It hosts crisp and zesty flavors complimenting the warmer weather. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Lamb<br />Steak<br />Grilled zucchini</h5>
+                                        <h5 className={styles.pairing}>Chicken / Fish<br />Arugala salad<br />Goat cheese</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
@@ -61,7 +61,7 @@ const LaPlayaCab = () => {
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Full bodied<br />Oaky / Vanilla<br />Smooth</h5>
+                                        <h5 className={styles.taste}>Dry<br />Light / Bold<br />Acidic</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const LaPlayaCab = () => {
   );
 };
 
-export default LaPlayaCab;
+export default LaPlayaSB;

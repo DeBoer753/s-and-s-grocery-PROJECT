@@ -19,8 +19,12 @@ const Home = () => {
         <Link to='/oldsoul-cab'>Old Soul Cab</Link>
         <Link to='/oldsoul-zin'>Old Soul Zin</Link>
         <Link to='/oldsoul-petite-syrah'>Old Soul Petite Syrah</Link>
+        <Link to='/ozv-zin'>Ozv Zinfandel</Link>
+        <Link to='/maggio-pinot'>Maggio Pinot</Link>
+        <Link to='/maggio-zin'>Maggio Zin</Link>
         <Link to='/laplaya-cab'>La Playa Cab</Link>
         <Link to='/laplaya-merlot'>La Playa Merlot</Link>
+        <Link to='/laplaya-sb'>La Playa Sauv Blanc</Link>
         <Link to='/eyzaguirre-syrah'>Eyzaguirre Syrah</Link>
         <Link to='/eyzaguirre-merlot'>Eyzaguirre Merlot</Link>
         <Link to='/poppy-cab'>Poppy Cab</Link>
@@ -46,7 +50,6 @@ j lohr seven oaks
 j lohr pure paso 
 poppy cab 
 poppy pinot 
-
 
 
 COLD BOX - WHAT WILL THE STICKERS LOOK LIKE??

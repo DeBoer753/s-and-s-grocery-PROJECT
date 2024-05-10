@@ -46,7 +46,7 @@ const LaPlayaMerlot = () => {
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
                                 <h3>La Playa Estate Series Merlot</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>A glass of La Playa Merlot is an opportunity to savor not only the rich, smooth flavors of this Chilean wine but also to appreciate its commitment to sustainability. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
+                                <p className={styles.skuDescription}>A bang for your buck, and your health! La Playa is an opportunity to savor the flavors of Chilean wine and appreciate the wineries commitment to sustainability. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 

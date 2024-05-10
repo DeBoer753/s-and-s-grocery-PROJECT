@@ -1,17 +1,17 @@
 // REACT
 import React, { useState } from 'react';
 
-// DATA 
+// DATA
 import { description1 } from './A-BacksideData';
 import { description2 } from './A-BacksideData';
 import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/LaPlayaCab.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/MaggioZin.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
-// J LOHR SEVEN OAKS
-const LaPlayaCab = () => {
+// OZV ZINFANDEL
+const MaggioZin = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,28 +40,28 @@ const LaPlayaCab = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_cab.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/maggio_zin.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
-                                <h3>La Playa Estate Series Cabernet</h3>
+                                <h3>Maggio Zinfandel</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>A bang for your buck, and your health! La Playa is an opportunity to savor the flavors of Chilean wine and appreciate the wineries commitment to sustainability. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
+                                <p className={styles.skuDescription}>Maggio Zinfandel is a delightful, affordable wine that offers exceptional value and quality. This full-bodied red wine boasts vibrant flavors of blackberries, plums, and a hint of spice, creating a rich and satisfying taste experience. </p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Lamb<br />Steak<br />Grilled zucchini</h5>
+                                        <h5 className={styles.pairing}>Hearty pasta<br />Grilled chicken<br />Balsamic & oil salad</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
                                         <hr />
-                                        <h5 className={styles.origin}>Colchagua Valley, Chile</h5>
+                                        <h5 className={styles.origin}>Lodi, CA</h5>
                                     </div>
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Full bodied<br />Oaky / Vanilla<br />Smooth</h5>
+                                        <h5 className={styles.taste}>Bold<br />Dry / Sweet<br />Soft</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const LaPlayaCab = () => {
   );
 };
 
-export default LaPlayaCab;
+export default MaggioZin;

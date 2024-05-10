@@ -12,8 +12,12 @@ import JLohrSyrah from './Cards/JLohrSyrah';
 import OldSoulCab from './Cards/OldSoulCab';
 import OldSoulZin from './Cards/OldSoulZin';
 import OldSoulPetiteSyrah from './Cards/OldSoulPetiteSyrah';
+import OzvZin from './Cards/OzvZin';
+import MaggioPinot from './Cards/MaggioPinot';
+import MaggioZin from './Cards/MaggioZin';
 import LaPlayaCab from './Cards/LaPlayaCab';
 import LaPlayaMerlot from './Cards/LaPlayaMerlot';
+import LaPlayaSB from './Cards/LaPlayaSB';
 import EyzaguirreSyrah from './Cards/EyzaguirreSyrah';
 import EyzaguirreMerlot from './Cards/EyzaguirreMerlot';
 import PoppyCab from './Cards/PoppyCab';
@@ -37,8 +41,13 @@ const App = () => {
           <Route path='/oldsoul-cab' element={<OldSoulCab />}/>
           <Route path='/oldsoul-zin' element={<OldSoulZin />}/>
           <Route path='/oldsoul-petite-syrah' element={<OldSoulPetiteSyrah />}/>
+          <Route path='/ozv-zin' element={<OzvZin />}/>
+          <Route path='/maggio-pinot' element={<MaggioPinot />}/>
+          <Route path='/maggio-zin' element={<MaggioZin />}/>
           <Route path='/laplaya-cab' element={<LaPlayaCab />}/>
           <Route path='/laplaya-merlot' element={<LaPlayaMerlot />}/>
+          <Route path='/laplaya-cab' element={<LaPlayaCab />}/>
+          <Route path='/laplaya-sb' element={<LaPlayaSB />}/>
           <Route path='/eyzaguirre-syrah' element={<EyzaguirreSyrah />}/>
           <Route path='/eyzaguirre-merlot' element={<EyzaguirreMerlot />}/>
           <Route path='/poppy-cab' element={<PoppyCab />}/>
