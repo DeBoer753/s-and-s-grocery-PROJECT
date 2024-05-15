@@ -22,6 +22,8 @@ import EyzaguirreSyrah from './Cards/EyzaguirreSyrah';
 import EyzaguirreMerlot from './Cards/EyzaguirreMerlot';
 import PoppyCab from './Cards/PoppyCab';
 import PoppyPinot from './Cards/PoppyPinot';
+import CampugetRose from './Cards/CampugetRose';
+import BetterHalfSB from './Cards/BetterHalfSB';
 
 // CSS
 import './App.css';
@@ -52,6 +54,8 @@ const App = () => {
           <Route path='/eyzaguirre-merlot' element={<EyzaguirreMerlot />}/>
           <Route path='/poppy-cab' element={<PoppyCab />}/>
           <Route path='/poppy-pinot' element={<PoppyPinot />}/>
+          <Route path='/campuget-rose' element={<CampugetRose />}/>
+          <Route path='/betterhalf-sb' element={<BetterHalfSB />}/>
         
           {/* BEER */}
 

@@ -29,6 +29,8 @@ const Home = () => {
         <Link to='/eyzaguirre-merlot'>Eyzaguirre Merlot</Link>
         <Link to='/poppy-cab'>Poppy Cab</Link>
         <Link to='/poppy-pinot'>Poppy Pinot</Link>
+        <Link to='/campuget-rose'>Campuget Rose</Link>
+        <Link to='/betterhalf-sb'>Better Half SB</Link>
 
         {/* BEER */}
         
