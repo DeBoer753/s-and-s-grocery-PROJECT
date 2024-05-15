@@ -31,6 +31,8 @@ const Home = () => {
         <Link to='/poppy-pinot'>Poppy Pinot</Link>
         <Link to='/campuget-rose'>Campuget Rose</Link>
         <Link to='/betterhalf-sb'>Better Half SB</Link>
+        <Link to='/betterhalf-pinot'>Better Half Pinot</Link>
+        <Link to='/julestaylor-sb'>Jules Taylor SB</Link>
 
         {/* BEER */}
         

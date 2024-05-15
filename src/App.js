@@ -24,6 +24,8 @@ import PoppyCab from './Cards/PoppyCab';
 import PoppyPinot from './Cards/PoppyPinot';
 import CampugetRose from './Cards/CampugetRose';
 import BetterHalfSB from './Cards/BetterHalfSB';
+import BetterHalfPinot from './Cards/BetterHalfPinot';
+import JulesTaylorSB from './Cards/JulesTaylorSB';
 
 // CSS
 import './App.css';
@@ -56,6 +58,8 @@ const App = () => {
           <Route path='/poppy-pinot' element={<PoppyPinot />}/>
           <Route path='/campuget-rose' element={<CampugetRose />}/>
           <Route path='/betterhalf-sb' element={<BetterHalfSB />}/>
+          <Route path='/betterhalf-pinot' element={<BetterHalfPinot />}/>
+          <Route path='/julestaylor-sb' element={<JulesTaylorSB />}/>
         
           {/* BEER */}
 

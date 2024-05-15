@@ -8,10 +8,10 @@ import { message } from './A-BacksideData';
 import { rescanTheQRCodeFor } from './A-BacksideData';
 
 // CSS
-import styles from '../Cards/LaPlayaSB.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
+import styles from '../Cards/BetterHalfPinot.module.css'; // Make sure to create a CSS file (e.g., FlipCard.css) for styling
 
 // J LOHR SEVEN OAKS
-const LaPlayaSB = () => {
+const BetterHalfPinot = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardClick = () => {
@@ -40,28 +40,28 @@ const LaPlayaSB = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_sb.png'} alt="" />
+                            <img src={process.env.PUBLIC_URL + '/imgs/skus/betterhalf_pinot.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>
-                                <h3>La Playa Estate Series Sauvignon Blanc</h3>
+                                <h3>Better Half Pinot Noir</h3>
                                 <p className={styles.description}>Description</p>
-                                <p className={styles.skuDescription}>A bang for your buck, and your health! La Playa Sauvignon Blanc is a TOP seller and for good reasons. It hosts crisp and zesty flavors complimenting the warmer weather. La Playa wines are produced with a focus on responsible viticulture and environmental stewardship.</p>
+                                <p className={styles.skuDescription}>Unwind and indulge in a moment of good times with a glass of Better Half Pinot Noir. Whether it's the end of a busy day or the beginning of a peaceful evening, let the velvety texture and nuanced flavors of this exquisite wine envelop your senses.</p>
                                 <div className={styles.miniBoxContainer}>
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Chicken / Fish<br />Arugala salad<br />Goat cheese</h5>
+                                        <h5 className={styles.pairing}>Turkey burgers<br />Balsamic & oil salad<br />Brie cheese</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
                                         <hr />
-                                        <h5 className={styles.origin}>Colchagua Valley, Chile</h5>
+                                        <h5 className={styles.origin}>Marlborough, New Zealand</h5>
                                     </div>
                                     <div className={styles.miniBox3}>
                                         <h4>Taste</h4>
                                         <hr />
-                                        <h5 className={styles.taste}>Dry<br />Light / Bold<br />Acidic</h5>
+                                        <h5 className={styles.taste}>Light<br />Dry / Smooth<br />Acidic</h5>
                                     </div>
                                 </div>
                             </div>
@@ -96,4 +96,4 @@ const LaPlayaSB = () => {
   );
 };
 
-export default LaPlayaSB;
+export default BetterHalfPinot;
