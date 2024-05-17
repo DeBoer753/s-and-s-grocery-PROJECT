@@ -51,7 +51,7 @@ const OldSoulCab = () => {
                                     <div className={styles.miniBox1}>
                                         <h4>Pairing</h4> 
                                         <hr />
-                                        <h5 className={styles.pairing}>Steak<br />Creamy pasta<br />Aged cheddar</h5>
+                                        <h5 className={styles.pairing}>Steak<br />Creamy pasta<br />Havarti cheese</h5>
                                     </div>
                                     <div className={styles.miniBox2}>
                                         <h4>Origin</h4>
