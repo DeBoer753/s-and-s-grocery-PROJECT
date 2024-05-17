@@ -40,7 +40,7 @@ const LaPlayaSB = () => {
                                 </div>
                             </div>
                                 
-                            <img src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_sb.png'} alt="" />
+                            <img className={styles.bottle} src={process.env.PUBLIC_URL + '/imgs/skus/laplaya_sb.png'} alt="" />
                             
                             <div className={styles.cardBottomHalf}>
                                 <h5 className={styles.ofAge}>• Must be 21 years or older to purchase •</h5>

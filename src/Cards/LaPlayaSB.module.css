@@ -99,6 +99,10 @@
     width: 60%;
     margin-top: -200px;
 }
+.flipCard .bottle {
+    position: relative;
+    top: -20px;
+}
 .flipCardFront .cardBottomHalf {
     background-color: #7ab762;
     border-top: 3px white solid;
