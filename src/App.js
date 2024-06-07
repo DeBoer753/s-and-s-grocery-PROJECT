@@ -27,6 +27,8 @@ import BetterHalfSB from './Cards/BetterHalfSB';
 import BetterHalfPinot from './Cards/BetterHalfPinot';
 import JulesTaylorSB from './Cards/JulesTaylorSB';
 
+
+
 // CSS
 import './App.css';
 
@@ -37,7 +39,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           {/* WINE */}
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} />
           <Route path='/' element={<Home />}/>
           <Route path='/jlohr-seven-oaks-cabernet' element={<JLohrSevenOaks />}/>
           <Route path='/jlohr-los-osos' element={<JLohrLosOsos />}/>
@@ -59,7 +61,7 @@ const App = () => {
           <Route path='/campuget-rose' element={<CampugetRose />}/>
           <Route path='/betterhalf-sb' element={<BetterHalfSB />}/>
           <Route path='/betterhalf-pinot' element={<BetterHalfPinot />}/>
-          <Route path='/julestaylor-sb' element={<JulesTaylorSB />}/>
+          <Route path='/julestaylor-sb' element={<JulesTaylorSB />}/> */}
         
           {/* BEER */}
 

@@ -13,7 +13,7 @@ const Home = () => {
     <div className={styles.homeContainer}>
       <h1>S and S Grocery</h1>
         {/* WINE */}
-        <Link to='/jlohr-seven-oaks-cabernet'>J. Lohr Seven Oaks Cabernet</Link>
+        {/* <Link to='/jlohr-seven-oaks-cabernet'>J. Lohr Seven Oaks Cabernet</Link>
         <Link to='/jlohr-los-osos'>J. Lohr Los Osos Merlot</Link>
         <Link to='/jlohr-syrah'>J. Lohr South Ridge Syrah</Link>
         <Link to='/oldsoul-cab'>Old Soul Cab</Link>
@@ -32,7 +32,7 @@ const Home = () => {
         <Link to='/campuget-rose'>Campuget Rose</Link>
         <Link to='/betterhalf-sb'>Better Half SB</Link>
         <Link to='/betterhalf-pinot'>Better Half Pinot</Link>
-        <Link to='/julestaylor-sb'>Jules Taylor SB</Link>
+        <Link to='/julestaylor-sb'>Jules Taylor SB</Link> */}
 
         {/* BEER */}
         
